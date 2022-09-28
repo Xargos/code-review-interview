@@ -1,8 +1,8 @@
 
 * Code to be reviewed.
-*
+* 
 * Code goal: Send the request to create transaction to another service.
-*
+* 
 * Code Smells covered:
 * Long class
 * Many parameters
@@ -14,3 +14,4 @@
 * currency could be enum
 * thread-safety? -> synchronize CompletableFuture
 * public mutable parameter?
+* no logging?
